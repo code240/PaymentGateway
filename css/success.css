@@ -1,0 +1,283 @@
+.body-div{
+    padding-top: 2rem;
+    height: 100vh;
+}
+.logo{
+    height: 7vw;
+    width:7vw;
+    background-image:url(../img/success.png);
+    background-size: 100% 100%;
+    margin: 4rem auto;
+}
+.success-msg{
+    margin: 0 auto;
+    font-size: 3rem;
+    font-family:'Times New Roman', Times, serif;
+    display: block;
+    font-weight: 400;
+    /* text-transform: uppercase; */
+    text-align: center;
+    color:aliceblue;
+}
+.congrats{
+    font-size: 3rem;
+    font-family:consolas;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.home-btn{
+    display: block;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.4rem;
+    border: 0;
+    border-radius: 3rem;
+    margin: 3rem auto;
+    background-color:rgba(240, 248, 255, 0.1);
+    color:#eee;
+    transition: 0.5s ease;
+    cursor: pointer;
+    border:1px solid rgba(192, 192, 192, 0.529);
+}
+.home-btn:hover{
+    background-color: rgba(240, 248, 255, 0.76);
+    color:#444;
+    font-size:1.8 ;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:1000px) {
+    .logo{
+        height:10vw;
+        width:10vw;
+        background-image:url(../img/success.png);
+        background-size: 100% 100%;
+        margin: 4rem auto;
+    }
+    
+.success-msg{
+    margin: 0 auto;
+    font-size: 2rem;
+    font-family:'Times New Roman', Times, serif;
+    display: block;
+    font-weight: 400;
+    /* text-transform: uppercase; */
+    text-align: center;
+    color:aliceblue;
+}
+.congrats{
+    font-size: 3rem;
+    font-family:consolas;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.home-btn{
+    display: block;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.4rem;
+    border: 0;
+    border-radius: 3rem;
+    margin: 5rem auto;
+    background-color:rgba(240, 248, 255, 0.1);
+    color:#eee;
+    transition: 0.5s ease;
+    cursor: pointer;
+    border:1px solid rgba(192, 192, 192, 0.529);
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:700px) {
+    .logo{
+        height:10vw;
+        width:10vw;
+        background-image:url(../img/success.png);
+        background-size: 100% 100%;
+        margin: 4rem auto;
+    }
+    
+.success-msg{
+    margin: 0 auto;
+    font-size: 2rem;
+    font-family:'Times New Roman', Times, serif;
+    display: block;
+    font-weight: 400;
+    /* text-transform: uppercase; */
+    text-align: center;
+    color:aliceblue;
+}
+.congrats{
+    font-size: 3rem;
+    font-family:consolas;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.home-btn{
+    display: block;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.4rem;
+    border: 0;
+    border-radius: 3rem;
+    margin: 5rem auto;
+    background-color:rgba(240, 248, 255, 0.1);
+    color:#eee;
+    transition: 0.5s ease;
+    cursor: pointer;
+    border:1px solid rgba(192, 192, 192, 0.529);
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:550px) {
+    .body-div{
+        height:100vh;
+        background:linear-gradient(rgb(141, 11, 255,0.8),rgb(167, 52, 255,0.8),rgb(97, 21, 251,0.8)),url(https://lh3.googleusercontent.com/proxy/BwyfPL2x4U2KZFDlpUqvrGZbloXx7zBbslyjpFKUYlUJiH4yeBJRsGh676WVBEWxX6jW8wMcBVm4uXo-hJ75sLWpy9ZyddbyZPWjJ-ziP3nJawE5X3HnYJUXa5t6xfqY5VC9G6g);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 0;
+        padding-top: 1rem;
+        /* padding-bottom: 10rem; */
+    }
+    
+    .logo{
+        height:12vw;
+        width:12vw;
+        background-image:url(../img/success.png);
+        background-size: 100% 100%;
+        margin: 4rem auto;
+    }
+    
+.success-msg{
+    margin: 0 auto;
+    font-size: 2rem;
+    font-family:'Times New Roman', Times, serif;
+    display: block;
+    font-weight: 400;
+    /* text-transform: uppercase; */
+    text-align: center;
+    color:aliceblue;
+}
+.congrats{
+    font-size: 3rem;
+    font-family:consolas;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.home-btn{
+    display: block;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.4rem;
+    border: 0;
+    border-radius: 3rem;
+    margin: 5rem auto;
+    background-color:rgba(240, 248, 255, 0.1);
+    color:#eee;
+    transition: 0.5s ease;
+    cursor: pointer;
+    border:1px solid rgba(192, 192, 192, 0.529);
+}
+}
+
+
+
+
+
+
+
+@media screen and (max-width:470px) {
+
+    .logo{
+        height:14vw;
+        width:14vw;
+        background-image:url(../img/success.png);
+        background-size: 100% 100%;
+        margin: 4rem auto;
+    }
+    
+.success-msg{
+    margin: 0 auto;
+    font-size: 1.5rem;
+    font-family:'Times New Roman', Times, serif;
+    display: block;
+    font-weight: 400;
+    /* text-transform: uppercase; */
+    text-align: center;
+    color:aliceblue;
+}
+.congrats{
+    font-size: 2.5rem;
+    font-family:consolas;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.home-btn{
+    display: block;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.2rem;
+    border: 0;
+    border-radius: 3rem;
+    margin: 7rem auto;
+    background-color:rgba(240, 248, 255, 0.1);
+    color:#eee;
+    transition: 0.5s ease;
+    cursor: pointer;
+    border:1px solid rgba(192, 192, 192, 0.529);
+}
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/payment.png" type="image/x-icon">
+    <link rel="stylesheet" href="bot/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="bot/animate.css">
+    <script src="bot/require.js"></script>
+    <script src="bot/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Payment Gateway</title>
+</head>
+<body>
+    <div class="body-div">
+        <h1 class="gateway-heading">
+            Payment Gateway
+        </h1>
+        <div class="main-div">
+            <form action="pay.php" method="POST" name="form" onsubmit="return validform();">    
+                <label for="name" class="formlabel">Full Name:</label>
+                <div class="input-group flex-nowrap inp-grouping-div">
+                    <span class="input-group-text group-span" id="addon-wrapping"><i class="fas fa-user-alt"></i></span>
+                    <input class="form-input" id="name" type="text" name="name" autocapitalize="words" placeholder="Full name" pattern=".{3,20}" title="3 to 20 characters">
+                </div>
+                <label for="email" class="formlabel">Email:</label>
+                <div class="input-group flex-nowrap inp-grouping-div">
+                    <span class="input-group-text group-span" id="addon-wrapping"><i class="fas fa-envelope"></i></span>
+                    <input class="form-input" id="email" type="email" name="email" placeholder="Email Address" pattern=".{6,90}" title="Invalid email">
+                </div>
+                <label for="mobile" class="formlabel">Mobile:</label>
+                <div class="input-group flex-nowrap inp-grouping-div">
+                    <span class="input-group-text group-span" id="addon-wrapping"><i class="fas fa-phone-alt"></i></span>
+                    <input class="form-input" id="mobile" name="mobile" type="number" placeholder="Mobile number" min="6000000000" max="9999999999" title="invalid mobile">
+                </div>
+                <label for="address" class="formlabel">Address:</label>
+                <div class="input-group flex-nowrap inp-grouping-div">
+                    <span class="input-group-text group-span" id="addon-wrapping"><i class="fas fa-address-card"></i></span>
+                    <input class="form-input" id="address" name="address" type="text" placeholder="Address" pattern=".{5,50}" title="5 to 20 characters">
+                </div>  
+                <input type="hidden" name="amount" value="1" id="amount">
+                <input type="submit" id="submit" name="submit" class="btn btn-primary form-input" value="Pay &#8377;1">
+            </form>    
+        </div>
+    </div>
+
+    <script>
+        function validform(){
+         var name = document.forms['form']['name'].value;
+         var email = document.forms['form']['email'].value;
+         var address = document.forms['form']['address'].value;
+         var mobile = document.forms['form']['mobile'].value;
+
+      
+         if(name.trim() == ""){
+           alert('Please enter the name');
+           return false;
+         }
+         if(email.trim() == ""){
+           alert('Please enter the email');
+           return false;
+         }
+         if(address.trim() == ""){
+           alert('Please enter address');
+           return false;
+         }
+         if(mobile.trim() == ""){
+            alert('Please enter mobile number');
+            return false;
+          }
+          
+         return true;
+        }
+      </script>
+      
+</body>
+</html>

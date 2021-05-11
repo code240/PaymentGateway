@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.body-div{
+    height: 100vh;
+    background:linear-gradient(rgb(141, 11, 255,0.8),rgb(167, 52, 255,0.8),rgb(97, 21, 251,0.8)),url(../img/paul-hanaoka-HbyYFFokvm0-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.gateway-heading{
+    text-align: center;
+    display:block;
+    padding-top: 2rem;
+    font-weight: 700;
+    color:#fff;
+    text-shadow:20px 20px 40px rgb(0, 0, 0) ;
+    font-style: italic;
+}
+.main-div{
+    display: block;
+    position: fixed;
+    height: auto;
+    width: 35vw;
+    left:33vw;
+    top:20vh;
+    border-radius: 1rem;
+    background:linear-gradient(rgb(206, 206, 206),rgb(206, 206, 206),rgb(139, 139, 139));
+    background:rgba(240, 248, 255, 0.479);
+    padding-top:0rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 3rem;
+
+}
+.formlabel{
+    font-size: 1.2rem;
+    font-weight:500;
+    display: block;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+}
+.form-input{
+    font-size: 1.2rem;
+    font-weight:500;
+    display: block;
+    width:100%;
+    height: auto;
+    margin-left: 0rem;
+    margin-right: 1rem;
+    padding-left: 0.7rem;
+    padding-top: 0.3rem;
+    padding-right: 0.3rem;
+    padding-bottom: 0.3rem;
+    border-radius: 0px 5px 5px 0px;
+    border:1px solid #666;
+}
+#submit{
+    margin-top: 2rem;
+    color:#eeeeee;
+    width:92% ;
+    margin-left: 1rem;
+    border: 1px solid rgb(0, 153, 255);
+    border-radius:5px;
+    /* background-color: green; */
+}
+.inp-grouping-div{
+    width: 92.5%;
+    
+    margin-left: 1rem;
+}
+.group-span{
+    
+    border-radius:5px 0px 0px 5px;
+    border: 1px solid #666;
+    border-right: 0;
+}
+
+@media screen and (max-width:1000px) {
+    
+    
+    .main-div{
+        display: block;
+        position: fixed;
+        height: auto;
+        width: 55vw;
+        left:20vw;
+        top:20vh;
+        border-radius: 1rem;
+        background:linear-gradient(rgb(206, 206, 206),rgb(206, 206, 206),rgb(139, 139, 139));
+        background:rgba(240, 248, 255, 0.479);
+        padding-top:0rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 3rem;
+
+    }
+}
+
+
+
+@media screen and (max-width:700px) {
+    .main-div{
+        display: block;
+        position: fixed;
+        height: auto;
+        width: 75vw;
+        left:12.5vw;
+        top:20vh;
+        border-radius: 1rem;
+        background:linear-gradient(rgb(206, 206, 206),rgb(206, 206, 206),rgb(139, 139, 139));
+        background:rgba(240, 248, 255, 0.479);
+        padding-top:0rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 3rem;
+
+    }
+}
+
+
+
+
+
+@media screen and (max-width:470px) {
+    .body-div{
+      /* height:120vh; */
+        background:linear-gradient(rgb(141, 11, 255,0.8),rgb(167, 52, 255,0.8),rgb(97, 21, 251,0.8)),url(https://lh3.googleusercontent.com/proxy/BwyfPL2x4U2KZFDlpUqvrGZbloXx7zBbslyjpFKUYlUJiH4yeBJRsGh676WVBEWxX6jW8wMcBVm4uXo-hJ75sLWpy9ZyddbyZPWjJ-ziP3nJawE5X3HnYJUXa5t6xfqY5VC9G6g);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 0;
+        height: auto;
+        padding-bottom: 10rem;
+    }
+    .gateway-heading{
+        font-size: 2.3rem;
+    }
+    .main-div{
+        display: block;
+        position: static;
+        height: auto;
+        width: 94vw;
+        margin: 3rem auto;
+        border-radius: 1rem;
+        background:linear-gradient(rgb(206, 206, 206),rgb(206, 206, 206),rgb(139, 139, 139));
+        background:rgba(240, 248, 255, 0.479);
+        padding-top:0rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 3rem;
+
+    }
+    
+.formlabel{
+    font-size: 1.1rem;
+    font-weight:500;
+    display: block;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+}
+.form-input{
+    font-size: 1.1rem;
+    font-weight:500;
+    display: block;
+    width:100%;
+    height: auto;
+    margin-left: 0rem;
+    margin-right: 1rem;
+    padding-left: 0.7rem;
+    padding-top: 0.2rem;
+    padding-right: 1rem;
+    padding-bottom: 0.2rem;
+    border-radius: 0px 5px 5px 0px;
+    border:1px solid #666;
+}
+#submit{
+    margin-top: 2rem;
+    color:#eeeeee;
+    width:92% ;
+    margin-left: 1rem;
+    border: 1px solid rgb(0, 153, 255);
+    border-radius:5px;
+    /* background-color: green; */
+}
+}

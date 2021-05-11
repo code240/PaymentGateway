@@ -1,0 +1,23 @@
+h1{
+    font-size: 1rem;
+    font-family:sans-serif;
+    font-weight: 400;
+    width: 90%;
+}
+a{
+    background-color: rgb(74, 74, 255);
+}
+button{
+    font-size: 1rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background-color: rgb(146, 146, 146);
+    color:aliceblue;
+    font-family:sans-serif;
+    display: block;
+    margin: 1rem 0;
+    border: 0;
+    border-radius: 5px;
+}
