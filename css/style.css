@@ -4,7 +4,7 @@
 }
 .body-div{
     height: 100vh;
-    background:linear-gradient(rgb(141, 11, 255,0.8),rgb(167, 52, 255,0.8),rgb(97, 21, 251,0.8)),url(../img/paul-hanaoka-HbyYFFokvm0-unsplash.jpg);
+    background:linear-gradient(rgb(141, 11, 255,0.8),rgb(167, 52, 255,0.8),rgb(97, 21, 251,0.8)),url(../img/paymoney-image-girl.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -127,7 +127,7 @@
 @media screen and (max-width:470px) {
     .body-div{
       /* height:120vh; */
-        background:linear-gradient(rgb(141, 11, 255,0.8),rgb(167, 52, 255,0.8),rgb(97, 21, 251,0.8)),url(https://lh3.googleusercontent.com/proxy/BwyfPL2x4U2KZFDlpUqvrGZbloXx7zBbslyjpFKUYlUJiH4yeBJRsGh676WVBEWxX6jW8wMcBVm4uXo-hJ75sLWpy9ZyddbyZPWjJ-ziP3nJawE5X3HnYJUXa5t6xfqY5VC9G6g);
+        background:linear-gradient(rgb(141, 11, 255,0.8),rgb(167, 52, 255,0.8),rgb(97, 21, 251,0.8)),url(../img/girlpayingmoney.png);
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
@@ -163,7 +163,7 @@
     padding-right: 1rem;
 }
 .form-input{
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     font-weight:500;
     display: block;
     width:100%;
